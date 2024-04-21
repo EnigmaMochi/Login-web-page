@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="Stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="index.html"><button class="Back">Back</button></a>
+    
+    <title>Coffee Menu</title>
+</head>
+<body class="Background">
+    <button class="Back" onclick="showBoxes()">Click here to order</button>
+    <div id="boxContainer">
+        <!-- Row 1 -->
+        <h3>Hot Coffee</h3>
+        <div class="box"> <img src="Coffee 17.png" alt="Cup1"> Cappuccino <br> <p>Price: $5</p><br></div>
+        <div class="box"> <img src="Coffee 10.png" alt="Cup2"> Coffee Latte <br> <p>Price: $10</p></div>
+        <div class="box"> <img src="Coffee 5.png" alt="Cup3"> Caffe Misto <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 3.png" alt="Cup4"> Americano <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 9.png" alt="Cup5"> Espresso <br> <p>Price: $5</p></div>
+        
+        <!-- Row 2 -->
+        <h3>Brewed Coffee</h3>
+        <div class="box"> <img src="Coffee 11.png" alt="Cup6"> Coffee<br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 9.png" alt="Cup7"> Brewed Coffee <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 2.png" alt="Cup8"> Cortado <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 18.png" alt="Cup9">Nitro cold brew coffee<br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 19.png" alt="Cup10"> Red Eye <br> <p>Price: $5</p></div>
+
+        <!-- Row 3 -->
+        <h3>Cold Coffee</h3>
+        <div class="box"> <img src="Coffee 15.png" alt="Cup11"> Caramel macchiato <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 14.png" alt="Cup12"> Iced Cuppucino <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 7.png" alt="Cup13"> Iced Mocha <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 4.png" alt="Cup14"> Iced Americano <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 8.png" alt="Cup15"> Caffe Latte <br> <p>Price: $5</p></div>
+
+        <!-- Row 4 -->
+        <h3>Blended Coffee</h3>
+        <div class="box"> <img src="Coffee 1.png" alt="Cup16"> Frappé Mocha <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 12.png" alt="Cup17"> Sweet Cream Cold Coffee<br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 13.png" alt="Cup18"> Caramel Cold Coffee <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 20.png" alt="Cup19"> Voluptuous Vanilla <br> <p>Price: $5</p></div>
+        <div class="box"> <img src="Coffee 16.png" alt="Cup20"> Frappuccino <br> <p>Price: $5</p></div>
+    </div>
+
+    <script>
+        function showBoxes() {
+            var boxContainer = document.getElementById("boxContainer");
+            if (boxContainer.style.display === "none") {
+                boxContainer.style.display = "block";
+            } else {
+                boxContainer.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

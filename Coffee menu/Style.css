@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Pixel";
+    src: url(ARCADECLASSIC.TTF);
+}
+
+@font-face {
+    font-family: "Joy";
+    src: url(joystix\ monospace.otf) format("opentype");
+}
+
+body {
+    background-image: url(Coffee\ Background.gif);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Pixel;
+    color: rgb(240, 240, 148);
+    margin: 0%;
+}
+h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Pixel;
+    color: rgb(240, 240, 148);
+    margin: 0%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Pixel;
+    color: rgb(240, 240, 148);
+    margin: 0%;
+}
+
+.Menu {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.Menu button {
+    margin: 10px;
+    color: white;
+    font-family: Joy;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Back {
+    font-size: 50px;
+    margin: 10px;
+    color: white;
+    font-family: Joy;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Background {
+    background-image: url(Second\ Background.gif);
+    background-size: cover;
+}
+
+#showBoxesButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boxContainer {
+    display: none;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.box {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: rgba(112, 120, 121, 0.75);
+    height: 20vh;
+}
+
+.box {
+    
+    font-family: Joy;
+    text-align:center;
+}
+
+.box img {
+    width: 10vh;
+    height: 10vh;
+    margin-right: 5vh;
+    display: flex;
+    padding-left: 9vh;
+    padding-bottom: 1.5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#Number {
+    font-family: Pixel;
+    font-size: 100px;
+    text-align: center;
+    color: #DFD3C3;
+    background-color:gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us h2 {
+    margin-top: 5vh;
+    color: rgb(240, 240, 148);
+    text-align: center;
+}
+
+.about-us p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.About {
+    font-family: Joy;
+    color: #DFD3C3;
+    text-align: center;
+    background-color:gray;
+}
